@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио-резюме</title>
+</head>
+<body>
+    <section>
+        <h1>Обо мне</h1>
+        <p>Меня зовут <strong>Никита</strong>. Я <em>начинающий Sales Manager</em></p>
+        <p>Я увлекаюсь <em>программированием</em> и <em>дизайном</em>, а также <ins>видеомонтажем</ins>, а также люблю изучать новые технологии. В свободное время я занимаюсь <del>играми</del> и <ins>чтением книг</ins>.</p>
+        <p>Моя цель — стать <u>экспертом</u> в области <strong>Sales Managment</strong> и <strong>участвовать в интересных проектах</strong>.</p>
+    </section>
+
+    <!--добавить список с маркером: ГОТОВО-->
+    <section>
+        <h2>Мои любимые блюда</h2>
+        <ol>
+            <li>Мясо по-французки</li>
+            <li>Пицца</li>
+            <li>Шаурма</li>
+            <li>Суши</li>
+        </ol>
+
+        <h2>Мои любимые языки программирования</h2>
+        <ul>
+            <li>Java</li>
+            <li>Rust</li>
+            <li>C#</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Моя фотография</h2>
+        <img src="image/photo.jpg" alt="Это я" width="420" height="420">
+    </section>
+
+    <section>
+        <h2>Моя любимая песня</h2>
+        <em>Моя любимая песня: Guns N' Roses - Knockin' on Heaven's Door</em>
+        <audio controls>
+            <source src="media/Guns%20N%20Roses%20Knockin%20On%20Heavens%20Door%20Instrumental.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <!--название файла на английском: ГОТОВО-->>
+    <section>
+        <h2>Мой любимый фильм</h2>
+        <p>Мой любимый фильм: <ins>Зеленая книга</ins></p>
+        <video width="640" height="480" controls>
+            <source src="media/greenbook.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!--осмысленные данные-->
+    <section>
+        <h2>Что я знаю про Frontend и Backend</h2>
+        <table>
+            <tr>
+                <th rowspan="2">Я.П</th>
+                <th>JavaScript</th>
+                <th>HTML/CSS</th>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>C#</td>
+            </tr>
+            <tr>
+                <td colspan="2">Что я знаю из этого?</td>
+                <td>Java и C#</td>
+            </tr>
+        </table>
+    </section>
+
+    <!--добавить кнопки отправить и больше полей, календарь, прикрепить файл-->
+    <section>
+        <h2>Пользовательская форма: Опрос</h2>
+        <form action="#">
+            <label for="color">Какой у вас любимый цвет?</label><br>
+            <input type="text" id="color" name="color" required><br><br>
+            
+            <label for="pet">Как зовут вашего питомца?</label><br>
+            <input type="text" id="pet" name="pet" required><br><br>
+            
+
+            <label for="food">Какая ваша любимая еда?</label><br>
+            <input type="text" id="food" name="food" required><br><br>
+            
+            <label for="study">Где вы учитесь?</label><br>
+            <input type="text" id="study" name="study" required><br><br>
+            <p><button type="submit">Отправить</button></p>
+
+            <label for="file">Прикрепите файл</label><br>
+            <p><input type="file" id="file" name="file" required><br><br></p>
+
+            <label for="cal">Выберите дату 2025 года</label><br>
+            <p><input type="date" id="cal" name="cal" required><br><br></p>
+        </form>
+    </section>
+
+    <!--добавить гиперссылку на почту-->
+    <section>
+        <h2>Мои соцсети и любимые сайты</h2>
+        <p><em>Ссылка на GitHub: <a href="https://github.com/BiteBuddy34" target="_blank">Перейти на профиль GitHub</a></em></p>
+        <p><em>Мой любимый сайт YouTube: <a href="https://www.youtube.com/" target="_blank">Перейти на сайт</a></em></p>
+        <p><em>Мой любимый сайт Reddit: <a href="https://www.reddit.com/" target="_blank">Перейти на сайт</a></em></p>
+       
+
+        <h2>Свяжитесь со мной по почте<h2>
+            <p>Если у вас остались вопросы, вы можете написать мне на почту:
+                <a href="mailto:samatulskijnikita5@gmail.com">Напишите мне на почту</a>
+            </p>
+    </section>
+
+    <section>
+        <h2>Спецсимволы в HTML</h2>
+        <p><u>Можно использовать знак &lt; и знак &gt; для сравнения</u></p>
+    </section>
+</body>
+</html>
